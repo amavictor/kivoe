@@ -1,0 +1,17 @@
+{
+    "appId": "com.reeework.electron-course",
+    "files": ["dist-react"],
+    "extraResources": ["dist-electron/preload.cjs", "src/assets/**"],
+    "icon": "./src/assets/logo.png",
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage",
+      "category": "Utility"
+    },
+    "win": {
+      "target": ["portable", "msi"]
+    }
+  }
+   
